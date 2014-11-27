@@ -8,38 +8,21 @@ HENS was published at the Global Online Conference on Information and Computer T
 
 ## Run
 
+Download the Zip file.  Unzip to your USB drive.  Then run HENS.bat.
+
+Note - only clone/fork HENS if you are going to contribute or extent HENS.  Reason, when you clone - it pulls down the .git for HENS.  This is tied to the repo.  By downloading the zip, you set-up the repos for your projects.
+
 ```bash
- node app.js
+ HENS.bat
  ```
 
-## Libraries
-
-### Back-end
-
-- [NONE]()
-
-
-### Front-end
-
-- 
-
-## TODO
-
-- Release v1
-- 
-
-- Release v2
-- 
-
-- Release v3
-- 
-
+To test the setup, in the command window run: 
+ ```bash
+ node app.js
+ ```
+ 
 
 ## Thoughts
-Well in my experience, every time you add a new third party tool, you tie yourself into that third party for the life expectancy of the product you’re developing. The lack of control and understanding of someone’s idea of good code which has been black boxed is very hard to deal with when something goes wrong (it always does) in the aforementioned black box. You will find many disclaimers attached to third party license agreements, "use at own risk" is one that I see often. 
+I started HENS to help students get started on web development.  What evolved over a few months was an environment that I use for my own projects.  After several iterations, many have helped me test and use HENS.  
 
-If you can program the code yourself and most importantly understand the code, and the code can be developed in a reasonable amount of time, why would you use a third party tool? When bugs appear, you understand how things work and can track down the root problem. I am an engineer, I build code that sometimes breaks but shouldn't collapses. 
-
-Frameworks are not "silver bullets". When you program against a Framework, you’re allowing someone else to take control of the big decisions about the code for you. Surely you can see that? These big decisions once made are very hard to retrace upon, if the framework is too encompassing then it will make all the major decisions for you. Using frameworks also obfuscate the actual programming away. Define your interpretation of a framework, there is more than one type of framework. Some frameworks are so integrated to the programming language then I would call these programming systems.  Depending on your context, and you would like to use a framework, take some time up front and find a framework that works for your team.  I too have made some decisions in this starter kit that you may want to use or change.
-
-Some thoughts.  My goal is to keep close to node.js.  Go ahead and contribute or fork - add code or packages that meet your needs.  Enjoy the Code!  Brian.
+Go ahead and contribute or fork - add code or packages that meet your needs.  Enjoy the Code!  Brian.
