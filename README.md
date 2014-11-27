@@ -4,7 +4,7 @@ An applied system for web development
  
 HENS is a portable system for software development.  The focus is on HTML, JavaScript, CSS, Node.js, and SQLite.  The system provides all the applications required for developers to start developing web applications.  The HTML Educational Node.js System (HENS) does not require installation or admin access allowing for portability. This environment is built using open source applications.  
 
-HENS was published at the Global Online Conference on Information and Computer Technology: http://www.virtualcict.org/ 
+HENS was published at the Global Online Conference on Information and Computer Technology: http://www.virtualcict.org/.  The HENS paper is in this repo:  HENS.docx. 
 
 ## Run
 
