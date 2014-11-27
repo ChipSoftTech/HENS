@@ -8,7 +8,7 @@ HENS was published at the Global Online Conference on Information and Computer T
 
 ## Run
 
-Download the Zip file.  Unzip to your USB drive (warning, takes time to unzip due to many files).  Then run HENS.bat.
+Download the Zip file.  Unzip to your USB drive (warning, takes time).  Then run HENS.bat.
 
 ```bash
  HENS.bat
