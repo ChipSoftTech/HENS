@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="1609" y="291" width="1194" height="851" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="331" y="18" width="1194" height="851" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -118,8 +118,6 @@
         <Replace name="," />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\PortableApps\code\teamnode\roster.html" />
-        <File filename="E:\PortableApps\code\teamnode\css\site.css" />
         <File filename="E:\PortableApps\ServerPortable\StartServer.bat" />
         <File filename="E:\PortableApps\code\app.js" />
         <File filename="E:\PortableApps\code\test2\README.md" />
@@ -132,6 +130,8 @@
         <File filename="E:\PortableApps\code\HANDS\app.js" />
         <File filename="E:\PortableApps\code\HANDS\index.html" />
         <File filename="E:\PortableApps\code\HANDS\README.md" />
+        <File filename="E:\HENS\HENS.bat" />
+        <File filename="E:\HENS\ServerPortable\StartServer.bat" />
         <File filename="E:\HENS\README.md" />
     </History>
     <ProjectPanels>

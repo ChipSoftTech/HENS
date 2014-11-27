@@ -10,8 +10,6 @@ HENS was published at the Global Online Conference on Information and Computer T
 
 Download the Zip file.  Unzip to your USB drive.  Then run HENS.bat.
 
-Note - only clone/fork HENS if you are going to contribute or extent HENS.  Reason, when you clone - it pulls down the .git for HENS.  This is tied to the repo.  By downloading the zip, you set-up the repos for your projects.
-
 ```bash
  HENS.bat
  ```
@@ -20,6 +18,9 @@ To test the setup, in the command window run:
  ```bash
  node app.js
  ```
+
+
+Note - only clone/fork HENS if you are going to contribute or extent HENS.  Reason, when you clone - it pulls down the .git for HENS.  This is tied to the repo.  By downloading the zip, there is no associated repo allowing you to setup your project repos under the code folder (or any folder).
  
 
 ## Thoughts
