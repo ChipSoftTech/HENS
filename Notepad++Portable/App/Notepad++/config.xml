@@ -86,7 +86,7 @@
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="E:\HENS\Notepad++Portable\App\Notepad++\stylers.xml" />
+        <GUIConfig name="stylerTheme" path="\HENS\Notepad++Portable\App\Notepad++\stylers.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="289" rightWidth="200" topHeight="200" bottomHeight="200">
@@ -118,21 +118,6 @@
         <Replace name="," />
     </FindHistory>
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
-        <File filename="E:\PortableApps\ServerPortable\StartServer.bat" />
-        <File filename="E:\PortableApps\code\app.js" />
-        <File filename="E:\PortableApps\code\test2\README.md" />
-        <File filename="E:\PortableApps\code\teamnode\index.html" />
-        <File filename="E:\PortableApps\code\teamnode\app.js" />
-        <File filename="E:\PortableApps\code\teamnode\db-init.js" />
-        <File filename="E:\PortableApps\code\HANDS\basic.js" />
-        <File filename="E:\PortableApps\code\teamnode\js\apiv1.js" />
-        <File filename="E:\PortableApps\code\teamnode\schedule.html" />
-        <File filename="E:\PortableApps\code\HANDS\app.js" />
-        <File filename="E:\PortableApps\code\HANDS\index.html" />
-        <File filename="E:\PortableApps\code\HANDS\README.md" />
-        <File filename="E:\HENS\README.md" />
-        <File filename="E:\HENS\HENS.bat" />
-        <File filename="E:\HENS\ServerPortable\StartServer.bat" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
