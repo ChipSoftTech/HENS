@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="482" y="65" width="1194" height="851" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="194" y="38" width="1194" height="851" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -24,7 +24,7 @@
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
-        <GUIConfig name="RememberLastSession">yes</GUIConfig>
+        <GUIConfig name="RememberLastSession">no</GUIConfig>
         <!--
 			New Document default settings :
 				format = 0/1/2 -> win/unix/mac
@@ -53,7 +53,7 @@
                                 1 : simple backup
                                 2 : verbose backup
                       -->
-        <GUIConfig name="Backup" action="0" useCustumDir="no" dir="" isSnapshotMode="yes" snapshotBackupTiming="7000" />
+        <GUIConfig name="Backup" action="0" useCustumDir="no" dir="" isSnapshotMode="no" snapshotBackupTiming="7000" />
         <GUIConfig name="TaskList">yes</GUIConfig>
         <GUIConfig name="SaveOpenFileInSameDir">no</GUIConfig>
         <!--
@@ -84,9 +84,9 @@
         <GUIConfig name="MenuBar">show</GUIConfig>
         <GUIConfig name="Caret" width="1" blinkRate="250" />
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
-        <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
+        <GUIConfig name="openSaveDir" value="2" defaultDirPath="..\HENS\code" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="" />
+        <GUIConfig name="stylerTheme" path="..\HENS\Notepad++Portable\App\Notepad++\stylers.xml" />
         <GUIConfig name="delimiterSelection" leftmostDelimiter="40" rightmostDelimiter="41" delimiterSelectionOnEntireDocument="no" />
         <GUIConfig name="MISC" fileSwitcherWithoutExtColumn="no" backSlashIsEscapeCharacterForSql="yes" />
         <GUIConfig name="DockingManager" leftWidth="289" rightWidth="200" topHeight="200" bottomHeight="200">
