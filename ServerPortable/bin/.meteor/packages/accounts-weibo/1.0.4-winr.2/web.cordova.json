@@ -1,0 +1,41 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "accounts-oauth"
+    },
+    {
+      "package": "weibo"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.cordova/packages/accounts-weibo/weibo_login_button.css",
+      "length": 1146,
+      "offset": 0,
+      "servePath": "/packages/accounts-weibo/weibo_login_button.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/accounts-weibo.js",
+      "length": 3163,
+      "offset": 0,
+      "servePath": "/packages/accounts-weibo.js",
+      "sourceMap": "web.cordova/packages/accounts-weibo.js.map"
+    }
+  ]
+}

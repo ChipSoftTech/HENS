@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/preserve-inputs.js",
+      "length": 792,
+      "offset": 0,
+      "servePath": "/packages/preserve-inputs.js",
+      "sourceMap": "os/packages/preserve-inputs.js.map"
+    }
+  ]
+}

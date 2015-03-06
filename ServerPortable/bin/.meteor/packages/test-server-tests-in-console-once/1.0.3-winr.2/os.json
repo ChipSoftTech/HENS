@@ -1,0 +1,28 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ejson"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/test-server-tests-in-console-once.js",
+      "length": 7223,
+      "offset": 0,
+      "servePath": "/packages/test-server-tests-in-console-once.js",
+      "sourceMap": "os/packages/test-server-tests-in-console-once.js.map"
+    }
+  ]
+}

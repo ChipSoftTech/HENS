@@ -1,0 +1,39 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "CssTools",
+      "export": true
+    },
+    {
+      "name": "UglifyJSMinify",
+      "export": true
+    },
+    {
+      "name": "UglifyJS",
+      "export": true
+    },
+    {
+      "name": "MinifyAst"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/minifiers.js",
+      "length": 39501,
+      "offset": 0,
+      "servePath": "/packages/minifiers.js",
+      "sourceMap": "os/packages/minifiers.js.map"
+    }
+  ]
+}

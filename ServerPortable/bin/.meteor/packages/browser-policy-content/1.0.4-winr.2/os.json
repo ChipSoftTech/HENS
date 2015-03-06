@@ -1,0 +1,34 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "browser-policy-common"
+    },
+    {
+      "package": "webapp"
+    }
+  ],
+  "implies": [
+    {
+      "package": "browser-policy-common",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/browser-policy-content.js",
+      "length": 25944,
+      "offset": 0,
+      "servePath": "/packages/browser-policy-content.js",
+      "sourceMap": "os/packages/browser-policy-content.js.map"
+    }
+  ]
+}

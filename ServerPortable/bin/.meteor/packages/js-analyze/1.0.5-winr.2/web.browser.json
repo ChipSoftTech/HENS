@@ -1,0 +1,15 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/js-analyze.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/js-analyze.js",
+      "sourceMap": "web.browser/packages/js-analyze.js.map"
+    }
+  ]
+}

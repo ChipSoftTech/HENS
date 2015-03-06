@@ -1,0 +1,42 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "MeteorDeveloperAccounts",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "oauth2"
+    },
+    {
+      "package": "oauth"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "service-configuration"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "templating"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/meteor-developer.js",
+      "length": 12208,
+      "offset": 0,
+      "servePath": "/packages/meteor-developer.js",
+      "sourceMap": "web.cordova/packages/meteor-developer.js.map"
+    }
+  ]
+}

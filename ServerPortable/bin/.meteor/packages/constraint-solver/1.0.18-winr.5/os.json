@@ -1,0 +1,55 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "ConstraintSolver",
+      "export": true
+    },
+    {
+      "name": "mori"
+    },
+    {
+      "name": "BREAK"
+    },
+    {
+      "name": "ResolverState"
+    },
+    {
+      "name": "PriorityQueue"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "package-version-parser"
+    },
+    {
+      "package": "binary-heap"
+    },
+    {
+      "package": "random"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/constraint-solver.js",
+      "length": 175748,
+      "offset": 0,
+      "servePath": "/packages/constraint-solver.js",
+      "sourceMap": "os/packages/constraint-solver.js.map"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "SpacebarsCompiler",
+      "export": true
+    },
+    {
+      "name": "TemplateTag"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "htmljs"
+    },
+    {
+      "package": "html-tools"
+    },
+    {
+      "package": "blaze-tools"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "minifiers"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/spacebars-compiler.js",
+      "length": 109711,
+      "offset": 0,
+      "servePath": "/packages/spacebars-compiler.js",
+      "sourceMap": "os/packages/spacebars-compiler.js.map"
+    }
+  ]
+}

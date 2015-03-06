@@ -1,0 +1,41 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "accounts-oauth"
+    },
+    {
+      "package": "github"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.cordova/packages/accounts-github/github_login_button.css",
+      "length": 907,
+      "offset": 0,
+      "servePath": "/packages/accounts-github/github_login_button.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/accounts-github.js",
+      "length": 3272,
+      "offset": 0,
+      "servePath": "/packages/accounts-github.js",
+      "sourceMap": "web.cordova/packages/accounts-github.js.map"
+    }
+  ]
+}

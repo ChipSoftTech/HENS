@@ -1,0 +1,42 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "ConstraintSolver",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "package-version-parser"
+    },
+    {
+      "package": "binary-heap"
+    },
+    {
+      "package": "random"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/constraint-solver.js",
+      "length": 38236,
+      "offset": 0,
+      "servePath": "/packages/constraint-solver.js",
+      "sourceMap": "web.browser/packages/constraint-solver.js.map"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Autoupdate",
+      "export": true
+    },
+    {
+      "name": "ClientVersions"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "retry"
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "mongo"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "reload",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/autoupdate.js",
+      "length": 15576,
+      "offset": 0,
+      "servePath": "/packages/autoupdate.js",
+      "sourceMap": "web.browser/packages/autoupdate.js.map"
+    }
+  ]
+}

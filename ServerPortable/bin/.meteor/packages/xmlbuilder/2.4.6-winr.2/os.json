@@ -1,0 +1,25 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "XmlBuilder",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/xmlbuilder.js",
+      "length": 758,
+      "offset": 0,
+      "servePath": "/packages/xmlbuilder.js",
+      "sourceMap": "os/packages/xmlbuilder.js.map"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "WebAppHashing",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/webapp-hashing.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/webapp-hashing.js",
+      "sourceMap": "web.browser/packages/webapp-hashing.js.map"
+    }
+  ]
+}
