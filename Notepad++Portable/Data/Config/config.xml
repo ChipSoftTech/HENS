@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="173" y="96" width="955" height="659" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="200" y="246" width="1283" height="785" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -102,6 +102,10 @@
     <History nbMaxFile="15" inSubMenu="no" customLength="-1">
         <File filename="E:\HENS Source\HENS\ServerPortable\StartServer.bat" />
         <File filename="E:\HENS\ServerPortable\StartServer.bat" />
+        <File filename="E:\HENS Source\HENS\PortableApps.com\Data\PortableAppsMenu.ini" />
+        <File filename="E:\HENS Source\HENS\PortableApps.com\App\DefaultData\PortableAppsMenu.ini" />
+        <File filename="E:\HENS Source\HENS\PortableApps.com\App\AppInfo\appinfo.ini" />
+        <File filename="E:\HENS Source\HENS\PortableApps.com\Data\NewApp.ini" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
