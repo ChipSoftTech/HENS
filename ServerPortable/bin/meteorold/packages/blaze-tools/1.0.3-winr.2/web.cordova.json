@@ -1,0 +1,39 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "BlazeTools",
+      "export": true
+    },
+    {
+      "name": "toJSLiteral"
+    },
+    {
+      "name": "toObjectLiteralKey"
+    },
+    {
+      "name": "ToJSVisitor"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "htmljs"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/blaze-tools.js",
+      "length": 42671,
+      "offset": 0,
+      "servePath": "/packages/blaze-tools.js",
+      "sourceMap": "web.cordova/packages/blaze-tools.js.map"
+    }
+  ]
+}

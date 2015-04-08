@@ -1,0 +1,98 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "pollUntil",
+      "export": true
+    },
+    {
+      "name": "try_all_permutations",
+      "export": true
+    },
+    {
+      "name": "SeededRandom",
+      "export": true
+    },
+    {
+      "name": "clickElement",
+      "export": true
+    },
+    {
+      "name": "blurElement",
+      "export": true
+    },
+    {
+      "name": "focusElement",
+      "export": true
+    },
+    {
+      "name": "simulateEvent",
+      "export": true
+    },
+    {
+      "name": "getStyleProperty",
+      "export": true
+    },
+    {
+      "name": "canonicalizeHtml",
+      "export": true
+    },
+    {
+      "name": "renderToDiv",
+      "export": true
+    },
+    {
+      "name": "withCallbackLogger",
+      "export": true
+    },
+    {
+      "name": "testAsyncMulti",
+      "export": true
+    },
+    {
+      "name": "simplePoll",
+      "export": true
+    },
+    {
+      "name": "makeTestConnection",
+      "export": true
+    },
+    {
+      "name": "DomUtils",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ddp"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/test-helpers.js",
+      "length": 69161,
+      "offset": 0,
+      "servePath": "/packages/test-helpers.js",
+      "sourceMap": "os/packages/test-helpers.js.map"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Hook",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/callback-hook.js",
+      "length": 9901,
+      "offset": 0,
+      "servePath": "/packages/callback-hook.js",
+      "sourceMap": "web.cordova/packages/callback-hook.js.map"
+    }
+  ]
+}

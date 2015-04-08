@@ -1,0 +1,41 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "accounts-oauth"
+    },
+    {
+      "package": "meetup"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/accounts-meetup/meetup_login_button.css",
+      "length": 2387,
+      "offset": 0,
+      "servePath": "/packages/accounts-meetup/meetup_login_button.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/accounts-meetup.js",
+      "length": 3272,
+      "offset": 0,
+      "servePath": "/packages/accounts-meetup.js",
+      "sourceMap": "web.browser/packages/accounts-meetup.js.map"
+    }
+  ]
+}

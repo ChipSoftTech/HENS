@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/session.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/session.js",
+      "sourceMap": "os/packages/session.js.map"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/insecure.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/insecure.js",
+      "sourceMap": "web.browser/packages/insecure.js.map"
+    }
+  ]
+}

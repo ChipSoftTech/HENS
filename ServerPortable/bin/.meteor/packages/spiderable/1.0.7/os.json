@@ -1,0 +1,38 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Spiderable",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "webapp"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "asset",
+      "file": "os/packages/spiderable/phantom_script.js",
+      "length": 1013,
+      "offset": 0,
+      "servePath": "/packages/spiderable/phantom_script.js",
+      "path": "phantom_script.js"
+    },
+    {
+      "type": "prelink",
+      "file": "os/packages/spiderable.js",
+      "length": 17834,
+      "offset": 0,
+      "servePath": "/packages/spiderable.js",
+      "sourceMap": "os/packages/spiderable.js.map"
+    }
+  ]
+}

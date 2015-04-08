@@ -1,0 +1,26 @@
+{
+  "isopack-1": {
+    "name": "ddp",
+    "summary": "Meteor's latency-compensated distributed data framework",
+    "version": "1.1.0",
+    "isTest": false,
+    "builds": [
+      {
+        "kind": "main",
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

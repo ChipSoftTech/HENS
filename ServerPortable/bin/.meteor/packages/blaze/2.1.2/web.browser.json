@@ -1,0 +1,65 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Blaze",
+      "export": true
+    },
+    {
+      "name": "UI",
+      "export": true
+    },
+    {
+      "name": "Handlebars",
+      "export": true
+    },
+    {
+      "name": "AttributeHandler"
+    },
+    {
+      "name": "makeAttributeHandler"
+    },
+    {
+      "name": "ElementAttributesUpdater"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "htmljs"
+    },
+    {
+      "package": "observe-sequence"
+    },
+    {
+      "package": "reactive-var"
+    }
+  ],
+  "implies": [
+    {
+      "package": "htmljs",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/blaze.js",
+      "length": 434786,
+      "offset": 0,
+      "servePath": "/packages/blaze.js",
+      "sourceMap": "web.browser/packages/blaze.js.map"
+    }
+  ]
+}

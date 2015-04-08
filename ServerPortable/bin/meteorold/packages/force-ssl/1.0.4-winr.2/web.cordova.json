@@ -1,0 +1,22 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/force-ssl.js",
+      "length": 684,
+      "offset": 0,
+      "servePath": "/packages/force-ssl.js",
+      "sourceMap": "web.cordova/packages/force-ssl.js.map"
+    }
+  ]
+}

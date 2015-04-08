@@ -1,0 +1,37 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "ReactiveDict",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "mongo",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/reactive-dict.js",
+      "length": 20190,
+      "offset": 0,
+      "servePath": "/packages/reactive-dict.js",
+      "sourceMap": "web.cordova/packages/reactive-dict.js.map"
+    }
+  ]
+}

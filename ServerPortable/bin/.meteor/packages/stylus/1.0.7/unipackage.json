@@ -1,0 +1,31 @@
+{
+  "name": "stylus",
+  "summary": "Expressive, dynamic, robust CSS",
+  "version": "1.0.7",
+  "isTest": false,
+  "plugins": [
+    {
+      "name": "compileStylus",
+      "arch": "os",
+      "path": "plugin.compileStylus.os/program.json"
+    }
+  ],
+  "unibuilds": [
+    {
+      "kind": "main",
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "kind": "main",
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "kind": "main",
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

@@ -1,0 +1,57 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "sourceMap": "packages/underscore.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/underscore.js"
+    },
+    {
+      "node_modules": "npm/meteor/node_modules",
+      "sourceMap": "packages/meteor.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/meteor.js"
+    },
+    {
+      "sourceMap": "packages/json.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/json.js"
+    },
+    {
+      "sourceMap": "packages/base64.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/base64.js"
+    },
+    {
+      "sourceMap": "packages/ejson.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/ejson.js"
+    },
+    {
+      "sourceMap": "packages/check.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/check.js"
+    },
+    {
+      "sourceMap": "packages/package-version-parser.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/package-version-parser.js"
+    },
+    {
+      "sourceMap": "packages/logic-solver.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/logic-solver.js"
+    },
+    {
+      "sourceMap": "packages/constraint-solver.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/constraint-solver.js"
+    },
+    {
+      "sourceMap": "packages/isopacket-constraint-solver_plugin.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/isopacket-constraint-solver_plugin.js"
+    }
+  ]
+}

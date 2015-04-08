@@ -1,0 +1,28 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "$",
+      "export": true
+    },
+    {
+      "name": "jQuery",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/jquery.js",
+      "length": 1295153,
+      "offset": 0,
+      "servePath": "/packages/jquery.js",
+      "sourceMap": "web.browser/packages/jquery.js.map"
+    }
+  ]
+}

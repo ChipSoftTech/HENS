@@ -1,0 +1,25 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "service-configuration"
+    },
+    {
+      "package": "oauth"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/oauth2.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/oauth2.js",
+      "sourceMap": "web.browser/packages/oauth2.js.map"
+    }
+  ]
+}

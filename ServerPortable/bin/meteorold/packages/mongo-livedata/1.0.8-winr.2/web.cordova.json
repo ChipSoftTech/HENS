@@ -1,0 +1,25 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "implies": [
+    {
+      "package": "mongo",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/mongo-livedata.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/mongo-livedata.js",
+      "sourceMap": "web.cordova/packages/mongo-livedata.js.map"
+    }
+  ]
+}

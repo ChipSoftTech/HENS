@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/fastclick.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/fastclick.js",
+      "sourceMap": "os/packages/fastclick.js.map"
+    }
+  ]
+}

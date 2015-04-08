@@ -1,0 +1,69 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "HTMLTools",
+      "export": true
+    },
+    {
+      "name": "Scanner"
+    },
+    {
+      "name": "makeRegexMatcher"
+    },
+    {
+      "name": "getCharacterReference"
+    },
+    {
+      "name": "getComment"
+    },
+    {
+      "name": "getDoctype"
+    },
+    {
+      "name": "getHTMLToken"
+    },
+    {
+      "name": "getTagToken"
+    },
+    {
+      "name": "TEMPLATE_TAG_POSITION"
+    },
+    {
+      "name": "isLookingAtEndTag"
+    },
+    {
+      "name": "codePointToString"
+    },
+    {
+      "name": "getContent"
+    },
+    {
+      "name": "getRCData"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "htmljs"
+    }
+  ],
+  "implies": [
+    {
+      "package": "htmljs",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/html-tools.js",
+      "length": 414108,
+      "offset": 0,
+      "servePath": "/packages/html-tools.js",
+      "sourceMap": "os/packages/html-tools.js.map"
+    }
+  ]
+}

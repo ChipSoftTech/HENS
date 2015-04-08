@@ -1,0 +1,31 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "browser-policy-content"
+    },
+    {
+      "package": "browser-policy-framing"
+    }
+  ],
+  "implies": [
+    {
+      "package": "browser-policy-common",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/browser-policy.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/browser-policy.js",
+      "sourceMap": "os/packages/browser-policy.js.map"
+    }
+  ]
+}

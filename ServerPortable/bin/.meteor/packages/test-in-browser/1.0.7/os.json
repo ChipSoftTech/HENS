@@ -1,0 +1,42 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "bootstrap",
+      "constraint": "1.0.1"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "session"
+    },
+    {
+      "package": "reload"
+    },
+    {
+      "package": "autoupdate",
+      "weak": true
+    },
+    {
+      "package": "random"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/test-in-browser.js",
+      "length": 1158,
+      "offset": 0,
+      "servePath": "/packages/test-in-browser.js",
+      "sourceMap": "os/packages/test-in-browser.js.map"
+    }
+  ]
+}

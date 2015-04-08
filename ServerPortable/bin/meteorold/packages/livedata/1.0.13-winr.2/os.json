@@ -1,0 +1,41 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "DDP",
+      "export": true
+    },
+    {
+      "name": "DDPServer",
+      "export": true
+    },
+    {
+      "name": "LivedataTest",
+      "export": "tests"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "ddp"
+    }
+  ],
+  "implies": [
+    {
+      "package": "ddp",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/livedata.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/livedata.js",
+      "sourceMap": "os/packages/livedata.js.map"
+    }
+  ]
+}

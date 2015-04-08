@@ -1,0 +1,33 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Reload",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "json"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/reload.js",
+      "length": 24486,
+      "offset": 0,
+      "servePath": "/packages/reload.js",
+      "sourceMap": "web.cordova/packages/reload.js.map"
+    }
+  ]
+}

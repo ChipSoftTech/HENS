@@ -1,0 +1,43 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "webapp"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "oauth"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/accounts-oauth.js",
+      "length": 10416,
+      "offset": 0,
+      "servePath": "/packages/accounts-oauth.js",
+      "sourceMap": "os/packages/accounts-oauth.js.map"
+    }
+  ]
+}

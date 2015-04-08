@@ -1,0 +1,28 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "_",
+      "export": true
+    },
+    {
+      "name": "exports"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor",
+      "unordered": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/underscore.js",
+      "length": 149390,
+      "offset": 0,
+      "servePath": "/packages/underscore.js",
+      "sourceMap": "web.cordova/packages/underscore.js.map"
+    }
+  ]
+}

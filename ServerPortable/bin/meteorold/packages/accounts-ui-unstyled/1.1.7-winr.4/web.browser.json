@@ -1,0 +1,76 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "passwordSignupFields"
+    },
+    {
+      "name": "displayName"
+    },
+    {
+      "name": "getLoginServices"
+    },
+    {
+      "name": "hasPasswordService"
+    },
+    {
+      "name": "dropdown"
+    },
+    {
+      "name": "validateUsername"
+    },
+    {
+      "name": "validateEmail"
+    },
+    {
+      "name": "validatePassword"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "service-configuration"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "session"
+    },
+    {
+      "package": "accounts-oauth",
+      "weak": true
+    },
+    {
+      "package": "accounts-password",
+      "weak": true
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/accounts-ui-unstyled.js",
+      "length": 247994,
+      "offset": 0,
+      "servePath": "/packages/accounts-ui-unstyled.js",
+      "sourceMap": "web.browser/packages/accounts-ui-unstyled.js.map"
+    }
+  ]
+}

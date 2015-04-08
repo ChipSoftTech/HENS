@@ -1,0 +1,21 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "JSAnalyze",
+      "export": true
+    }
+  ],
+  "uses": [],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/js-analyze.js",
+      "length": 5764,
+      "offset": 0,
+      "servePath": "/packages/js-analyze.js",
+      "sourceMap": "os/packages/js-analyze.js.map"
+    }
+  ]
+}

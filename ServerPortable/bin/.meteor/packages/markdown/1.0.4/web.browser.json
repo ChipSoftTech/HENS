@@ -1,0 +1,28 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Showdown",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "templating",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/markdown.js",
+      "length": 187768,
+      "offset": 0,
+      "servePath": "/packages/markdown.js",
+      "sourceMap": "web.browser/packages/markdown.js.map"
+    }
+  ]
+}

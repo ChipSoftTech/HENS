@@ -1,0 +1,41 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "accounts-oauth"
+    },
+    {
+      "package": "facebook"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.cordova/packages/accounts-facebook/facebook_login_button.css",
+      "length": 417,
+      "offset": 0,
+      "servePath": "/packages/accounts-facebook/facebook_login_button.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/accounts-facebook.js",
+      "length": 3708,
+      "offset": 0,
+      "servePath": "/packages/accounts-facebook.js",
+      "sourceMap": "web.cordova/packages/accounts-facebook.js.map"
+    }
+  ]
+}

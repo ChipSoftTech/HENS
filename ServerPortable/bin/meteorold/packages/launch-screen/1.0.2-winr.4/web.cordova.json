@@ -1,0 +1,32 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "LaunchScreen",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "blaze",
+      "weak": true
+    },
+    {
+      "package": "templating",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/launch-screen.js",
+      "length": 7290,
+      "offset": 0,
+      "servePath": "/packages/launch-screen.js",
+      "sourceMap": "web.cordova/packages/launch-screen.js.map"
+    }
+  ]
+}

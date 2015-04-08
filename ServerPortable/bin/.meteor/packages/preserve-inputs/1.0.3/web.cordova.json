@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/preserve-inputs.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/preserve-inputs.js",
+      "sourceMap": "web.cordova/packages/preserve-inputs.js.map"
+    }
+  ]
+}

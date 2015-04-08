@@ -1,0 +1,58 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Mongo",
+      "export": true
+    },
+    {
+      "name": "LocalCollectionDriver"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "minimongo"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "insecure",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/mongo.js",
+      "length": 147631,
+      "offset": 0,
+      "servePath": "/packages/mongo.js",
+      "sourceMap": "web.cordova/packages/mongo.js.map"
+    }
+  ]
+}

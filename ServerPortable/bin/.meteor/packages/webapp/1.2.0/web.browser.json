@@ -1,0 +1,27 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "WebApp",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/webapp.js",
+      "length": 1727,
+      "offset": 0,
+      "servePath": "/packages/webapp.js",
+      "sourceMap": "web.browser/packages/webapp.js.map"
+    }
+  ]
+}

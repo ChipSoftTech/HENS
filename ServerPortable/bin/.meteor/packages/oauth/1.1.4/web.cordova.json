@@ -1,0 +1,40 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "OAuth",
+      "export": true
+    },
+    {
+      "name": "Oauth",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "reload"
+    },
+    {
+      "package": "base64"
+    },
+    {
+      "package": "localstorage"
+    },
+    {
+      "package": "url"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/oauth.js",
+      "length": 30930,
+      "offset": 0,
+      "servePath": "/packages/oauth.js",
+      "sourceMap": "web.cordova/packages/oauth.js.map"
+    }
+  ]
+}

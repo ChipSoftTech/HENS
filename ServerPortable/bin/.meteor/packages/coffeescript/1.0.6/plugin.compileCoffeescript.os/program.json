@@ -1,0 +1,12 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "node_modules": "npm/compileCoffeescript/node_modules",
+      "sourceMap": "packages/compileCoffeescript_plugin.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/compileCoffeescript_plugin.js"
+    }
+  ]
+}

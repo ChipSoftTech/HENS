@@ -1,0 +1,32 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "CssTools",
+      "export": true
+    },
+    {
+      "name": "UglifyJSMinify",
+      "export": true
+    },
+    {
+      "name": "UglifyJS",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/minifiers.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/minifiers.js",
+      "sourceMap": "web.cordova/packages/minifiers.js.map"
+    }
+  ]
+}

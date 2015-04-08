@@ -1,0 +1,45 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "http"
+    }
+  ],
+  "resources": [
+    {
+      "type": "asset",
+      "file": "os/packages/test-in-console/runner.js",
+      "length": 779,
+      "offset": 0,
+      "servePath": "/packages/test-in-console/runner.js",
+      "path": "runner.js"
+    },
+    {
+      "type": "prelink",
+      "file": "os/packages/test-in-console.js",
+      "length": 3571,
+      "offset": 0,
+      "servePath": "/packages/test-in-console.js",
+      "sourceMap": "os/packages/test-in-console.js.map"
+    }
+  ]
+}

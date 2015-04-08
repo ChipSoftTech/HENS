@@ -1,0 +1,36 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "HTTP",
+      "export": true
+    },
+    {
+      "name": "makeErrorByStatus"
+    },
+    {
+      "name": "populateData"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "url"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/http.js",
+      "length": 36349,
+      "offset": 0,
+      "servePath": "/packages/http.js",
+      "sourceMap": "web.cordova/packages/http.js.map"
+    }
+  ]
+}

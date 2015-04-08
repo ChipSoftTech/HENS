@@ -1,0 +1,33 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "IdMap",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "ejson"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/id-map.js",
+      "length": 7142,
+      "offset": 0,
+      "servePath": "/packages/id-map.js",
+      "sourceMap": "os/packages/id-map.js.map"
+    }
+  ]
+}

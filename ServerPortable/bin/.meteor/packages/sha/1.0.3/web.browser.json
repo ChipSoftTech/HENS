@@ -1,0 +1,24 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "SHA256",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/sha.js",
+      "length": 18238,
+      "offset": 0,
+      "servePath": "/packages/sha.js",
+      "sourceMap": "web.browser/packages/sha.js.map"
+    }
+  ]
+}

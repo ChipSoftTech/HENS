@@ -1,0 +1,98 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "LocalCollection",
+      "export": true
+    },
+    {
+      "name": "Minimongo",
+      "export": true
+    },
+    {
+      "name": "MinimongoTest",
+      "export": "tests"
+    },
+    {
+      "name": "MinimongoError"
+    },
+    {
+      "name": "isArray"
+    },
+    {
+      "name": "isPlainObject"
+    },
+    {
+      "name": "isIndexable"
+    },
+    {
+      "name": "isOperatorObject"
+    },
+    {
+      "name": "isNumericKey"
+    },
+    {
+      "name": "regexpElementMatcher"
+    },
+    {
+      "name": "equalityElementMatcher"
+    },
+    {
+      "name": "ELEMENT_OPERATORS"
+    },
+    {
+      "name": "makeLookupFunction"
+    },
+    {
+      "name": "expandArraysInBranches"
+    },
+    {
+      "name": "projectionDetails"
+    },
+    {
+      "name": "pathsToTree"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "id-map"
+    },
+    {
+      "package": "ordered-dict"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ordered-dict"
+    },
+    {
+      "package": "geojson-utils"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/minimongo.js",
+      "length": 456418,
+      "offset": 0,
+      "servePath": "/packages/minimongo.js",
+      "sourceMap": "web.browser/packages/minimongo.js.map"
+    }
+  ]
+}

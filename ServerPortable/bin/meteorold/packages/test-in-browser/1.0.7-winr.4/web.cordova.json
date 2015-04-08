@@ -1,0 +1,63 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "bootstrap",
+      "constraint": "1.0.1"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "session"
+    },
+    {
+      "package": "reload"
+    },
+    {
+      "package": "blaze"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "spacebars"
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "tracker"
+    }
+  ],
+  "resources": [
+    {
+      "type": "head",
+      "file": "web.cordova/head",
+      "length": 20,
+      "offset": 0
+    },
+    {
+      "type": "css",
+      "file": "web.cordova/packages/test-in-browser/driver.css",
+      "length": 2771,
+      "offset": 0,
+      "servePath": "/packages/test-in-browser/driver.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/test-in-browser.js",
+      "length": 535008,
+      "offset": 0,
+      "servePath": "/packages/test-in-browser.js",
+      "sourceMap": "web.cordova/packages/test-in-browser.js.map"
+    }
+  ]
+}

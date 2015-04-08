@@ -1,0 +1,1 @@
+{"version":3,"sources":["xmlbuilder/xmlbuilder.js"],"names":[],"mappings":";;;;;;;;AAAA,uC","file":"/packages/xmlbuilder.js","sourcesContent":["XmlBuilder = Npm.require('xmlbuilder');\n\n"]}

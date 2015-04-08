@@ -1,0 +1,22 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "reload"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/appcache.js",
+      "length": 6752,
+      "offset": 0,
+      "servePath": "/packages/appcache.js",
+      "sourceMap": "web.browser/packages/appcache.js.map"
+    }
+  ]
+}

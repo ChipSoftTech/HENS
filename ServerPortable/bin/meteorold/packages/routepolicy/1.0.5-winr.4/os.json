@@ -1,0 +1,35 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "RoutePolicy",
+      "export": true
+    },
+    {
+      "name": "RoutePolicyTest",
+      "export": "tests"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "webapp",
+      "unordered": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/routepolicy.js",
+      "length": 15944,
+      "offset": 0,
+      "servePath": "/packages/routepolicy.js",
+      "sourceMap": "os/packages/routepolicy.js.map"
+    }
+  ]
+}

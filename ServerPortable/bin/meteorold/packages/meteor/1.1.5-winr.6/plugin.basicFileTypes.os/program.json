@@ -1,0 +1,11 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "sourceMap": "packages/basicFileTypes_plugin.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/basicFileTypes_plugin.js"
+    }
+  ]
+}

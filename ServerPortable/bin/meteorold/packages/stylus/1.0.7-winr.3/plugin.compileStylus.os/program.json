@@ -1,0 +1,12 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "node_modules": "npm/compileStylus/node_modules",
+      "sourceMap": "packages/compileStylus_plugin.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/compileStylus_plugin.js"
+    }
+  ]
+}

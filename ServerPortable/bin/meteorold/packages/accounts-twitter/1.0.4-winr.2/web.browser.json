@@ -1,0 +1,44 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "accounts-oauth"
+    },
+    {
+      "package": "twitter"
+    },
+    {
+      "package": "http"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/accounts-twitter/twitter_login_button.css",
+      "length": 798,
+      "offset": 0,
+      "servePath": "/packages/accounts-twitter/twitter_login_button.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/accounts-twitter.js",
+      "length": 3490,
+      "offset": 0,
+      "servePath": "/packages/accounts-twitter.js",
+      "sourceMap": "web.browser/packages/accounts-twitter.js.map"
+    }
+  ]
+}

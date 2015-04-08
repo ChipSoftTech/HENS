@@ -1,0 +1,25 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "implies": [
+    {
+      "package": "meteor-platform",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/standard-app-packages.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/standard-app-packages.js",
+      "sourceMap": "os/packages/standard-app-packages.js.map"
+    }
+  ]
+}

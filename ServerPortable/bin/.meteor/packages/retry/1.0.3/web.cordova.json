@@ -1,0 +1,30 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Retry",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/retry.js",
+      "length": 5834,
+      "offset": 0,
+      "servePath": "/packages/retry.js",
+      "sourceMap": "web.cordova/packages/retry.js.map"
+    }
+  ]
+}

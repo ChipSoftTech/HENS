@@ -1,0 +1,17 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "node_modules": "npm/js-analyze/node_modules",
+      "sourceMap": "packages/js-analyze.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/js-analyze.js"
+    },
+    {
+      "sourceMap": "packages/isopacket-js-analyze_plugin.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/isopacket-js-analyze_plugin.js"
+    }
+  ]
+}

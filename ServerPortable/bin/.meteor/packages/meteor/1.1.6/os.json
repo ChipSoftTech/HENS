@@ -1,0 +1,25 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Meteor",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "underscore"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/meteor.js",
+      "length": 125223,
+      "offset": 0,
+      "servePath": "/packages/meteor.js",
+      "sourceMap": "os/packages/meteor.js.map"
+    }
+  ]
+}

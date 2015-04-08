@@ -1,0 +1,27 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "ReactiveVar",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tracker"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/reactive-var.js",
+      "length": 12518,
+      "offset": 0,
+      "servePath": "/packages/reactive-var.js",
+      "sourceMap": "os/packages/reactive-var.js.map"
+    }
+  ]
+}

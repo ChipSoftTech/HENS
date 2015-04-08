@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/less.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/less.js",
+      "sourceMap": "web.browser/packages/less.js.map"
+    }
+  ]
+}

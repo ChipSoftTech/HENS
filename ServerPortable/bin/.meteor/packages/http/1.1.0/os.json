@@ -1,0 +1,41 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "HTTP",
+      "export": true
+    },
+    {
+      "name": "HTTPInternals",
+      "export": true
+    },
+    {
+      "name": "makeErrorByStatus"
+    },
+    {
+      "name": "populateData"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "url"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/http.js",
+      "length": 27324,
+      "offset": 0,
+      "servePath": "/packages/http.js",
+      "sourceMap": "os/packages/http.js.map"
+    }
+  ]
+}
