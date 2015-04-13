@@ -30,6 +30,9 @@ Go ahead and contribute or fork - add code or packages that meet your needs.  En
 
 ## Releases
 
+v2.2 HENS v2.2 Meteor upgrade to 1.1.0.2
+https://github.com/ChipSoftTech/HENS/archive/v2.2.zip
+
 v2.1 HENS v2.1 supporting HTML, CSS, JS, Node.js, sqlite, Meteor, MongoDB, git, Robomongo UI
 https://github.com/ChipSoftTech/HENS/releases/tag/v2.1
 
