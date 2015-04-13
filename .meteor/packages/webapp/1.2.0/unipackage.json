@@ -1,0 +1,29 @@
+{
+  "name": "webapp",
+  "summary": "Serves a Meteor app over HTTP",
+  "version": "1.2.0",
+  "isTest": false,
+  "plugins": [],
+  "cordovaDependencies": {
+    "org.apache.cordova.device": "0.2.13",
+    "com.meteor.cordova-update": "https://github.com/meteor/com.meteor.cordova-update/tarball/92fe99b7248075318f6446b288995d4381d24cd2"
+  },
+  "unibuilds": [
+    {
+      "kind": "main",
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "kind": "main",
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "kind": "main",
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "format": "unipackage-pre2"
+}

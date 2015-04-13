@@ -1,0 +1,55 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Boilerplate",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "spacebars-compiler"
+    },
+    {
+      "package": "spacebars"
+    },
+    {
+      "package": "htmljs"
+    },
+    {
+      "package": "ui"
+    }
+  ],
+  "resources": [
+    {
+      "type": "asset",
+      "file": "os/packages/boilerplate-generator/boilerplate_web.browser.html",
+      "length": 844,
+      "offset": 0,
+      "servePath": "/packages/boilerplate-generator/boilerplate_web.browser.html",
+      "path": "boilerplate_web.browser.html"
+    },
+    {
+      "type": "asset",
+      "file": "os/packages/boilerplate-generator/boilerplate_web.cordova.html",
+      "length": 1622,
+      "offset": 0,
+      "servePath": "/packages/boilerplate-generator/boilerplate_web.cordova.html",
+      "path": "boilerplate_web.cordova.html"
+    },
+    {
+      "type": "prelink",
+      "file": "os/packages/boilerplate-generator.js",
+      "length": 9664,
+      "offset": 0,
+      "servePath": "/packages/boilerplate-generator.js",
+      "sourceMap": "os/packages/boilerplate-generator.js.map"
+    }
+  ]
+}

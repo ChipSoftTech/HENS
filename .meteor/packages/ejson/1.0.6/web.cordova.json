@@ -1,0 +1,37 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "EJSON",
+      "export": true
+    },
+    {
+      "name": "EJSONTest",
+      "export": "tests"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "base64"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/ejson.js",
+      "length": 79995,
+      "offset": 0,
+      "servePath": "/packages/ejson.js",
+      "sourceMap": "web.cordova/packages/ejson.js.map"
+    }
+  ]
+}

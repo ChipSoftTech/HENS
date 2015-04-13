@@ -36,7 +36,7 @@ set NODE_PATH=%NODEDIR%\node_modules\;%NODEDIR%\node_modules\npm\node_modules;%N
 :npm -g install sqlite3
 
 : add meteor 
-set PATH=%SERVER_DIR%bin\.meteor;%PATH%
+set PATH=%SERVER_DIR%..\.meteor;%PATH%
 
 start cmd.exe /k "cd ..\code"
 exit

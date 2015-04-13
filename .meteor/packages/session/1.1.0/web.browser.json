@@ -1,0 +1,37 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Session",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "reactive-dict"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "reload",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/session.js",
+      "length": 5017,
+      "offset": 0,
+      "servePath": "/packages/session.js",
+      "sourceMap": "web.browser/packages/session.js.map"
+    }
+  ]
+}

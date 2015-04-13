@@ -1,0 +1,45 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "TEST_STATUS",
+      "export": true
+    },
+    {
+      "name": "DONE"
+    },
+    {
+      "name": "FAILURES"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tinytest"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "check"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/test-in-console.js",
+      "length": 29060,
+      "offset": 0,
+      "servePath": "/packages/test-in-console.js",
+      "sourceMap": "web.browser/packages/test-in-console.js.map"
+    }
+  ]
+}

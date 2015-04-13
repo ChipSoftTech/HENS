@@ -1,0 +1,40 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "accounts-oauth"
+    },
+    {
+      "package": "twitter"
+    },
+    {
+      "package": "http"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/accounts-twitter.js",
+      "length": 3490,
+      "offset": 0,
+      "servePath": "/packages/accounts-twitter.js",
+      "sourceMap": "os/packages/accounts-twitter.js.map"
+    }
+  ]
+}

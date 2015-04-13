@@ -1,0 +1,47 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "npm-bcrypt",
+      "constraint": "=0.7.8_2"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "srp"
+    },
+    {
+      "package": "sha"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ddp"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/accounts-password.js",
+      "length": 31635,
+      "offset": 0,
+      "servePath": "/packages/accounts-password.js",
+      "sourceMap": "web.browser/packages/accounts-password.js.map"
+    }
+  ]
+}

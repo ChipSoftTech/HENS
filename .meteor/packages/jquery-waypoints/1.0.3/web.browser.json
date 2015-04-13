@@ -1,0 +1,29 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "__coffeescriptShare"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "jquery"
+    },
+    {
+      "package": "coffeescript"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/jquery-waypoints.js",
+      "length": 17055,
+      "offset": 0,
+      "servePath": "/packages/jquery-waypoints.js",
+      "sourceMap": "web.browser/packages/jquery-waypoints.js.map"
+    }
+  ]
+}

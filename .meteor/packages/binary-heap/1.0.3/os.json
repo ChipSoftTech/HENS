@@ -1,0 +1,38 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "MaxHeap",
+      "export": true
+    },
+    {
+      "name": "MinHeap",
+      "export": true
+    },
+    {
+      "name": "MinMaxHeap",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "id-map"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/binary-heap.js",
+      "length": 29770,
+      "offset": 0,
+      "servePath": "/packages/binary-heap.js",
+      "sourceMap": "os/packages/binary-heap.js.map"
+    }
+  ]
+}

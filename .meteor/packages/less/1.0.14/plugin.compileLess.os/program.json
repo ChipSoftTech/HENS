@@ -1,0 +1,12 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "node_modules": "npm/compileLess/node_modules",
+      "sourceMap": "packages/compileLess_plugin.js.map",
+      "sourceMapRoot": "packages",
+      "path": "packages/compileLess_plugin.js"
+    }
+  ]
+}

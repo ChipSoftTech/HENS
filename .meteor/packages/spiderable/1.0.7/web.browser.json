@@ -1,0 +1,36 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Spiderable",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "head",
+      "file": "web.browser/head",
+      "length": 34,
+      "offset": 0
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/spiderable.js",
+      "length": 4720,
+      "offset": 0,
+      "servePath": "/packages/spiderable.js",
+      "sourceMap": "web.browser/packages/spiderable.js.map"
+    }
+  ]
+}

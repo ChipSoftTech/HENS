@@ -1,0 +1,79 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Accounts",
+      "export": true
+    },
+    {
+      "name": "AccountsTest",
+      "export": "tests"
+    },
+    {
+      "name": "EXPIRE_TOKENS_INTERVAL_MS"
+    },
+    {
+      "name": "CONNECTION_CLOSE_DELAY_MS"
+    },
+    {
+      "name": "getTokenLifetimeMs"
+    },
+    {
+      "name": "onLoginHook"
+    },
+    {
+      "name": "onLoginFailureHook"
+    },
+    {
+      "name": "maybeStopExpireTokensInterval"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "callback-hook"
+    },
+    {
+      "package": "service-configuration",
+      "unordered": true
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "mongo"
+    },
+    {
+      "package": "autopublish",
+      "weak": true
+    },
+    {
+      "package": "oauth-encryption",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/accounts-base.js",
+      "length": 193920,
+      "offset": 0,
+      "servePath": "/packages/accounts-base.js",
+      "sourceMap": "os/packages/accounts-base.js.map"
+    }
+  ]
+}

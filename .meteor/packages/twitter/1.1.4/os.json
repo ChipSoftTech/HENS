@@ -1,0 +1,39 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Twitter",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "http"
+    },
+    {
+      "package": "oauth1"
+    },
+    {
+      "package": "oauth"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "service-configuration"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/twitter.js",
+      "length": 5343,
+      "offset": 0,
+      "servePath": "/packages/twitter.js",
+      "sourceMap": "os/packages/twitter.js.map"
+    }
+  ]
+}

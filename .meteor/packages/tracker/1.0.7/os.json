@@ -1,0 +1,28 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Tracker",
+      "export": true
+    },
+    {
+      "name": "Deps",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/tracker.js",
+      "length": 76448,
+      "offset": 0,
+      "servePath": "/packages/tracker.js",
+      "sourceMap": "os/packages/tracker.js.map"
+    }
+  ]
+}

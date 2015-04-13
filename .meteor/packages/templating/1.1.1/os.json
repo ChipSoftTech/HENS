@@ -1,0 +1,25 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "blaze"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/templating.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/templating.js",
+      "sourceMap": "os/packages/templating.js.map"
+    }
+  ]
+}

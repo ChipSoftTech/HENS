@@ -1,0 +1,46 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "OAuth1Binding",
+      "export": true
+    },
+    {
+      "name": "OAuth1Test",
+      "export": "tests"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "service-configuration"
+    },
+    {
+      "package": "oauth"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "http"
+    },
+    {
+      "package": "mongo"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/oauth1.js",
+      "length": 43826,
+      "offset": 0,
+      "servePath": "/packages/oauth1.js",
+      "sourceMap": "os/packages/oauth1.js.map"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "HTML",
+      "export": true
+    },
+    {
+      "name": "IDENTITY"
+    },
+    {
+      "name": "SLICE"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "deps"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/htmljs.js",
+      "length": 58729,
+      "offset": 0,
+      "servePath": "/packages/htmljs.js",
+      "sourceMap": "web.cordova/packages/htmljs.js.map"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "webapp"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ddp"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/force-ssl.js",
+      "length": 10027,
+      "offset": 0,
+      "servePath": "/packages/force-ssl.js",
+      "sourceMap": "os/packages/force-ssl.js.map"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "SRP",
+      "export": true
+    },
+    {
+      "name": "BigInteger"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "sha"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/srp.js",
+      "length": 171956,
+      "offset": 0,
+      "servePath": "/packages/srp.js",
+      "sourceMap": "web.cordova/packages/srp.js.map"
+    }
+  ]
+}

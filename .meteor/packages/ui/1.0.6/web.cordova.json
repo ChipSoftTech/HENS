@@ -1,0 +1,41 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Blaze",
+      "export": true
+    },
+    {
+      "name": "UI",
+      "export": true
+    },
+    {
+      "name": "Handlebars",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "blaze"
+    }
+  ],
+  "implies": [
+    {
+      "package": "blaze",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/ui.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/ui.js",
+      "sourceMap": "web.cordova/packages/ui.js.map"
+    }
+  ]
+}

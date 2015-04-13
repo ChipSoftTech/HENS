@@ -1,0 +1,39 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Logic",
+      "export": true
+    },
+    {
+      "name": "C_MINISAT"
+    },
+    {
+      "name": "MiniSat"
+    },
+    {
+      "name": "_check"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/logic-solver.js",
+      "length": 469494,
+      "offset": 0,
+      "servePath": "/packages/logic-solver.js",
+      "sourceMap": "web.browser/packages/logic-solver.js.map"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "isopack-1": {
+    "name": "meteor-platform",
+    "summary": "Include a standard set of Meteor packages in your app",
+    "version": "1.2.2",
+    "isTest": false,
+    "builds": [
+      {
+        "kind": "main",
+        "arch": "os",
+        "path": "os.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.browser",
+        "path": "web.browser.json"
+      },
+      {
+        "kind": "main",
+        "arch": "web.cordova",
+        "path": "web.cordova.json"
+      }
+    ],
+    "plugins": []
+  }
+}

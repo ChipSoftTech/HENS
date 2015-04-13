@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/mobile-status-bar.js",
+      "length": 1128,
+      "offset": 0,
+      "servePath": "/packages/mobile-status-bar.js",
+      "sourceMap": "web.cordova/packages/mobile-status-bar.js.map"
+    }
+  ]
+}

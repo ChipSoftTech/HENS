@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/startup.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/startup.js",
+      "sourceMap": "web.browser/packages/startup.js.map"
+    }
+  ]
+}
