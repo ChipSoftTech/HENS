@@ -1,0 +1,128 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "MongoInternals",
+      "export": true
+    },
+    {
+      "name": "MongoTest",
+      "export": "tests"
+    },
+    {
+      "name": "Mongo",
+      "export": true
+    },
+    {
+      "name": "MongoConnection"
+    },
+    {
+      "name": "CursorDescription"
+    },
+    {
+      "name": "Cursor"
+    },
+    {
+      "name": "listenAll"
+    },
+    {
+      "name": "forEachTrigger"
+    },
+    {
+      "name": "OPLOG_COLLECTION"
+    },
+    {
+      "name": "idForOp"
+    },
+    {
+      "name": "OplogHandle"
+    },
+    {
+      "name": "ObserveMultiplexer"
+    },
+    {
+      "name": "ObserveHandle"
+    },
+    {
+      "name": "DocFetcher"
+    },
+    {
+      "name": "PollingObserveDriver"
+    },
+    {
+      "name": "OplogObserveDriver"
+    },
+    {
+      "name": "LocalCollectionDriver"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ejson"
+    },
+    {
+      "package": "json"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "minimongo"
+    },
+    {
+      "package": "logging"
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "binary-heap"
+    },
+    {
+      "package": "insecure",
+      "weak": true
+    },
+    {
+      "package": "autopublish",
+      "weak": true
+    },
+    {
+      "package": "disable-oplog",
+      "weak": true
+    },
+    {
+      "package": "webapp",
+      "weak": true
+    },
+    {
+      "package": "facts",
+      "weak": true
+    },
+    {
+      "package": "callback-hook"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/mongo.js",
+      "length": 547069,
+      "offset": 0,
+      "servePath": "/packages/mongo.js",
+      "sourceMap": "os/packages/mongo.js.map"
+    }
+  ]
+}

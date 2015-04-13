@@ -1,0 +1,32 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "webapp"
+    },
+    {
+      "package": "routepolicy"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "autoupdate",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/appcache.js",
+      "length": 17716,
+      "offset": 0,
+      "servePath": "/packages/appcache.js",
+      "sourceMap": "os/packages/appcache.js.map"
+    }
+  ]
+}

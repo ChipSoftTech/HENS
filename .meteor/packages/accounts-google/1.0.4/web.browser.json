@@ -1,0 +1,47 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "accounts-oauth"
+    },
+    {
+      "package": "google"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/accounts-google/google_login_button.css",
+      "length": 1227,
+      "offset": 0,
+      "servePath": "/packages/accounts-google/google_login_button.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/accounts-google.js",
+      "length": 4144,
+      "offset": 0,
+      "servePath": "/packages/accounts-google.js",
+      "sourceMap": "web.browser/packages/accounts-google.js.map"
+    }
+  ]
+}

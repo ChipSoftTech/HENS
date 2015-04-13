@@ -1,0 +1,45 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "ObserveSequence",
+      "export": true
+    },
+    {
+      "name": "seqChangedToEmpty"
+    },
+    {
+      "name": "seqChangedToArray"
+    },
+    {
+      "name": "seqChangedToCursor"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "minimongo"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/observe-sequence.js",
+      "length": 31136,
+      "offset": 0,
+      "servePath": "/packages/observe-sequence.js",
+      "sourceMap": "web.browser/packages/observe-sequence.js.map"
+    }
+  ]
+}

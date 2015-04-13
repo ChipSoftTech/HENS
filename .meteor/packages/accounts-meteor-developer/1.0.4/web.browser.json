@@ -1,0 +1,47 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "accounts-oauth"
+    },
+    {
+      "package": "meteor-developer"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.browser/packages/accounts-meteor-developer/meteor-developer-login-button.css",
+      "length": 2328,
+      "offset": 0,
+      "servePath": "/packages/accounts-meteor-developer/meteor-developer-login-button.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/accounts-meteor-developer.js",
+      "length": 3300,
+      "offset": 0,
+      "servePath": "/packages/accounts-meteor-developer.js",
+      "sourceMap": "web.browser/packages/accounts-meteor-developer.js.map"
+    }
+  ]
+}

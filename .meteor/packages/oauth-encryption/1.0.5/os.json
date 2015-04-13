@@ -1,0 +1,31 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "OAuthEncryption",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "npm-node-aes-gcm",
+      "constraint": "=0.1.3_6"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/oauth-encryption.js",
+      "length": 14526,
+      "offset": 0,
+      "servePath": "/packages/oauth-encryption.js",
+      "sourceMap": "os/packages/oauth-encryption.js.map"
+    }
+  ]
+}

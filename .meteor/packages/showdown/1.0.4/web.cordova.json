@@ -1,0 +1,25 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "implies": [
+    {
+      "package": "markdown",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/showdown.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/showdown.js",
+      "sourceMap": "web.cordova/packages/showdown.js.map"
+    }
+  ]
+}

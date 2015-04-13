@@ -1,0 +1,30 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "ServiceConfiguration",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "mongo"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/service-configuration.js",
+      "length": 7094,
+      "offset": 0,
+      "servePath": "/packages/service-configuration.js",
+      "sourceMap": "os/packages/service-configuration.js.map"
+    }
+  ]
+}

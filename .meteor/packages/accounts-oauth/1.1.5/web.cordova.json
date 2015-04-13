@@ -1,0 +1,40 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "check"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "oauth"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/accounts-oauth.js",
+      "length": 14428,
+      "offset": 0,
+      "servePath": "/packages/accounts-oauth.js",
+      "sourceMap": "web.cordova/packages/accounts-oauth.js.map"
+    }
+  ]
+}

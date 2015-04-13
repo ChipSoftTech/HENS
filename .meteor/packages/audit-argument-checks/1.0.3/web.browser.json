@@ -1,0 +1,19 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/audit-argument-checks.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/audit-argument-checks.js",
+      "sourceMap": "web.browser/packages/audit-argument-checks.js.map"
+    }
+  ]
+}

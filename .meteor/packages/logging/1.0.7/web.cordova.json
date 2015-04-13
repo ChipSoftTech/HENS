@@ -1,0 +1,30 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Log",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "ejson"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/logging.js",
+      "length": 28460,
+      "offset": 0,
+      "servePath": "/packages/logging.js",
+      "sourceMap": "web.cordova/packages/logging.js.map"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Tinytest",
+      "export": true
+    },
+    {
+      "name": "TestCaseResults"
+    },
+    {
+      "name": "TestCase"
+    },
+    {
+      "name": "TestManager"
+    },
+    {
+      "name": "TestRun"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "mongo"
+    },
+    {
+      "package": "check"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/tinytest.js",
+      "length": 80600,
+      "offset": 0,
+      "servePath": "/packages/tinytest.js",
+      "sourceMap": "os/packages/tinytest.js.map"
+    }
+  ]
+}

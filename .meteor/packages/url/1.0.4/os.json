@@ -1,0 +1,30 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "URL",
+      "export": true
+    },
+    {
+      "name": "buildUrl"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/url.js",
+      "length": 5617,
+      "offset": 0,
+      "servePath": "/packages/url.js",
+      "sourceMap": "os/packages/url.js.map"
+    }
+  ]
+}

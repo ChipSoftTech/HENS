@@ -1,0 +1,38 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "accounts-ui-unstyled"
+    },
+    {
+      "package": "less"
+    }
+  ],
+  "implies": [
+    {
+      "package": "accounts-base",
+      "constraint": ""
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.cordova/packages/accounts-ui/login_buttons.less.css",
+      "length": 8581,
+      "offset": 0,
+      "servePath": "/packages/accounts-ui/login_buttons.less.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/accounts-ui.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/accounts-ui.js",
+      "sourceMap": "web.cordova/packages/accounts-ui.js.map"
+    }
+  ]
+}

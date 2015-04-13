@@ -1,0 +1,26 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "npm-node-aes-gcm",
+      "constraint": "=0.1.3_6"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/oauth-encryption.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/oauth-encryption.js",
+      "sourceMap": "web.browser/packages/oauth-encryption.js.map"
+    }
+  ]
+}

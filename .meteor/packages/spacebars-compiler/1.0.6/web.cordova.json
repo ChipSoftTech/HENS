@@ -1,0 +1,39 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "SpacebarsCompiler",
+      "export": true
+    },
+    {
+      "name": "TemplateTag"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "htmljs"
+    },
+    {
+      "package": "html-tools"
+    },
+    {
+      "package": "blaze-tools"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/spacebars-compiler.js",
+      "length": 109808,
+      "offset": 0,
+      "servePath": "/packages/spacebars-compiler.js",
+      "sourceMap": "web.cordova/packages/spacebars-compiler.js.map"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "PackageVersion",
+      "export": true
+    },
+    {
+      "name": "SemVer410"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/package-version-parser.js",
+      "length": 172303,
+      "offset": 0,
+      "servePath": "/packages/package-version-parser.js",
+      "sourceMap": "web.cordova/packages/package-version-parser.js.map"
+    }
+  ]
+}

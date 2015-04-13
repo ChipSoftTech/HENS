@@ -1,0 +1,32 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Email",
+      "export": true
+    },
+    {
+      "name": "EmailTest",
+      "export": "tests"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    }
+  ],
+  "node_modules": "npm/node_modules",
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/email.js",
+      "length": 14086,
+      "offset": 0,
+      "servePath": "/packages/email.js",
+      "sourceMap": "os/packages/email.js.map"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "service-configuration"
+    },
+    {
+      "package": "oauth"
+    },
+    {
+      "package": "mongo"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/oauth1.js",
+      "length": 0,
+      "offset": 0,
+      "servePath": "/packages/oauth1.js",
+      "sourceMap": "web.cordova/packages/oauth1.js.map"
+    }
+  ]
+}

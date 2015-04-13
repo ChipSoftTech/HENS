@@ -1,0 +1,35 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Facts",
+      "export": true
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "autopublish",
+      "weak": true
+    },
+    {
+      "package": "ddp",
+      "unordered": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/facts.js",
+      "length": 8842,
+      "offset": 0,
+      "servePath": "/packages/facts.js",
+      "sourceMap": "os/packages/facts.js.map"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "COFFEESCRIPT_EXPORTED",
+      "export": true
+    },
+    {
+      "name": "__coffeescriptShare"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "coffeescript"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/coffeescript-test-helper.js",
+      "length": 716,
+      "offset": 0,
+      "servePath": "/packages/coffeescript-test-helper.js",
+      "sourceMap": "web.cordova/packages/coffeescript-test-helper.js.map"
+    }
+  ]
+}

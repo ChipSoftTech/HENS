@@ -1,0 +1,99 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "Accounts",
+      "export": true
+    },
+    {
+      "name": "AccountsTest",
+      "export": "tests"
+    },
+    {
+      "name": "EXPIRE_TOKENS_INTERVAL_MS"
+    },
+    {
+      "name": "CONNECTION_CLOSE_DELAY_MS"
+    },
+    {
+      "name": "getTokenLifetimeMs"
+    },
+    {
+      "name": "onLoginHook"
+    },
+    {
+      "name": "onLoginFailureHook"
+    },
+    {
+      "name": "autoLoginEnabled"
+    },
+    {
+      "name": "tokenRegex"
+    },
+    {
+      "name": "match"
+    },
+    {
+      "name": "makeClientLoggedOut"
+    },
+    {
+      "name": "makeClientLoggedIn"
+    },
+    {
+      "name": "storeLoginToken"
+    },
+    {
+      "name": "unstoreLoginToken"
+    },
+    {
+      "name": "storedLoginToken"
+    },
+    {
+      "name": "storedLoginTokenExpires"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "localstorage"
+    },
+    {
+      "package": "tracker"
+    },
+    {
+      "package": "random"
+    },
+    {
+      "package": "callback-hook"
+    },
+    {
+      "package": "service-configuration",
+      "unordered": true
+    },
+    {
+      "package": "ddp"
+    },
+    {
+      "package": "mongo"
+    },
+    {
+      "package": "blaze",
+      "weak": true
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "web.browser/packages/accounts-base.js",
+      "length": 111967,
+      "offset": 0,
+      "servePath": "/packages/accounts-base.js",
+      "sourceMap": "web.browser/packages/accounts-base.js.map"
+    }
+  ]
+}
