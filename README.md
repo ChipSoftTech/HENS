@@ -15,7 +15,7 @@ Download the latest release (see zip files below).  Unzip to your USB drive (war
  HENS.bat
  ```
 * In Windows 8 you may get a notice: "Windows SmartScreen prevented an unauthorized app from running".  Click the "more info" link and a "run anyway" button will appear.
-<img src="PortableApps.com/Assets/image1.png" />
+<img src="/ChipSoftTech/HENS/blob/H3.0/PortableApps.com/Assets/image1.png" />
  
 To test the setup, in the command window run: 
  ```bash
@@ -25,25 +25,25 @@ To test the setup, in the command window run:
 You may also want to install the following applications:
 
 Apps are installed using the "Apps" menu item on the right:
-<img src="PortableApps.com/Assets/image2.png" />
+<img src="/ChipSoftTech/HENS/blob/H3.0/PortableApps.com/Assets/image2.png" />
 
 Get more apps by Title
-<img src="PortableApps.com/Assets/image3.png" />
+<img src="/ChipSoftTech/HENS/blob/H3.0/PortableApps.com/Assets/image3.png" />
 
 Check "DB Browser for SQLite Portable"
-<img src="PortableApps.com/Assets/image4.png" />
+<img src="/ChipSoftTech/HENS/blob/H3.0/PortableApps.com/Assets/image4.png" />
 
 Check "Google Chrome Portable"
-<img src="PortableApps.com/Assets/image5.png" /> 
+<img src="/ChipSoftTech/HENS/blob/H3.0/PortableApps.com/Assets/image5.png" /> 
 
 Check "Notepad++ Portable"
-<img src="PortableApps.com/Assets/image6.png" />
+<img src="/ChipSoftTech/HENS/blob/H3.0/PortableApps.com/Assets/image6.png" />
 
 Click next to start installing.  Click Finish when "Portable Apps Added" is displayed.
-<img src="PortableApps.com/Assets/image7.png" />
+<img src="/ChipSoftTech/HENS/blob/H3.0/PortableApps.com/Assets/image7.png" />
 
 Congrats - you should have the following apps installed:
-<img src="PortableApps.com/Assets/image8.png" />
+<img src="/ChipSoftTech/HENS/blob/H3.0/PortableApps.com/Assets/image8.png" />
 
 
 
