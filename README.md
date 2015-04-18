@@ -30,6 +30,9 @@ Go ahead and contribute or fork - add code or packages that meet your needs.  En
 
 ## Releases
 
+PreRelease 3.0 - Smaller footprint, removed programs in Portable Apps repo - user can download after download.  Removed not needed test and documentation files.  Download the prerelease now! 
+https://github.com/ChipSoftTech/HENS/archive/H3.0.zip
+
 v2.2.1 HENS v2.2.1 Meteor upgrade to 1.1.0.2 and bug fixes
 https://github.com/ChipSoftTech/HENS/archive/v2.2.1.zip
 
